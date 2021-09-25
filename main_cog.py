@@ -7,6 +7,7 @@ class main_cog(commands.Cog):
         self.bot = bot
         self.help_message = """
 ```
+જય જીનેન્દ્ર
 General commands:
 /help - displays all the available commands
 /clear amount - will delete the past messages with the amount specified
@@ -53,4 +54,11 @@ Music commands:
 
     @commands.command(name="jetha", help="Respect")
     async def help(self, ctx):
-        await ctx.send("Ji Bapuji...")
+        await ctx.send("chup chutya")
+
+    @commands.command(name="JetLife", help="Respect")
+    async def help(self, ctx):
+        await ctx.send("Is Wet Life...")
+
+
+

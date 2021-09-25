@@ -103,3 +103,8 @@ class music_cog(commands.Cog):
             self.vc.stop()
             # try to play next in the queue if it exists
             await self.play_music()
+
+    @commands.command(name="stop", help="Respect")
+    async def help(self, ctx):
+        self.vc.stop()
+        await ctx.send("Kardiya")
