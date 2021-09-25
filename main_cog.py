@@ -50,3 +50,7 @@ Music commands:
             pass
 
         await ctx.channel.purge(limit=amount)
+
+    @commands.command(name="jetha", help="Respect")
+    async def help(self, ctx):
+        await ctx.send("Ji Bapuji...")
